@@ -1,5 +1,9 @@
-<html lang="en">
+
+ <html lang="en">
 <head>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Orienta&family=Press+Start+2P&display=swap" rel="stylesheet">
+  
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,29 +11,22 @@
     <title>Frank Garcia Portfolio</title>
 </head>
 
-<!-- <nav>
-    <nav class="navbar">
-        <ul>
-            <li><a href="https://www.linkedin.com/in/frank-garcia-269528181/">Linkdin</a></li>
-            <li><a href="https://github.com/F-rg90">GitHub</a></li>
-            <li><a href="AMA.html">Personal Life</a></li>
-          </ul>
-</nav> -->
+
 
 <nav class="navbar">
     <a class="brand" href="#">F.RG</a>
     <ul>
       <li>
-        <a href="https://www.linkedin.com/in/frank-garcia-269528181/">Linkdin</a>
+        <a href="https://www.linkedin.com/in/frank-garcia-269528181/" target="_blank">Linkedin</a>
       </li>
       <li>
-        <a href="https://github.com/F-rg90">GitHub</a>
+        <a href="https://github.com/F-rg90" target="_blank">GitHub</a>
       </li>
       <li>
         <a href="profile.html">Profile</a>
       </li>
       <li>
-        <a href="mailto:garciaf90@gmail.com?subject= Lets connect, shall we?">Contact</a>
+        <a href="contact.html">Contact</a>
       </li>
     </ul>
   </nav>
@@ -37,20 +34,126 @@
 
 <body>
     
-<div>
-    <link></link>
-    <link></link>
-    <link></link>
-</div>
+ 
 
-<div class="pastjob">
-    <h2>My Work</h2>
-</div>
+
+
 
 <div>
-    <h2>
-
-    </h2>
+    <link></link>
+    <link></link>
+    <link></link>
 </div>
+
+<div class="AboutMe">
+  <br>
+  <br>
+    <h2>Frank Garcia: Full Stack Software engineer</h2>
+    <br>
+    <br>
+    <img src="Images/PicsArt_10-04-04.51.57.jpg" align="right">
+   
+    <h3>A Small Intro</h3>
+    <p>New kid on the code block, Reigning from Washington Heights in Manhattan, New York<br> 
+      <br>
+      I've spent years in retail, sales and working management where i've honed my skills in Basic/Advanced communitcation skills, Leadership, creative and critical thinking (and patience)
+      in which I have used to train and managed over 1000 people in my career and having met many more. This has helped me understand peoples struggle and how to fix issues on a whim.<br>
+      (having the nerdy funny guy buff helps too.)
+      <br>
+      <br>
+      So, Using my prior experience as a foundation and now, starting my career as a full stack software engineer, I'll use everything i've learned over my career to find a way to change the world<br> 
+      for the better or in the very least, the world around me. </p>
+</div>
+<div class="AboutMe2">
+  <h2>Skills</h2>
+  <p>HTML, CSS, Javascript, Python, React, Svelte, Vue, MongoDB, Express, Node.js, SQL  <br>
+    <br>
+    15 years of experience including: Customer Service. Management. Leadership. Consumer Sales. <br>
+    Auto Mechanic repairs. Employee training. </p>
+  </p>
+</div>
+<br>
+<br>
+<br>
+<br>
+<div class="AboutMe3">
+  <h2>Goals</h2>
+  <P> to blow up and act like i dont know no body </P>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="caro">
+<h1>Past Projects</h1>
+</div>
+<br>
+<br>
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 4</div>
+    <a href="https://f-rg90.github.io/P1-Tic-Tac-Battle/">
+      <img alt="Qries" src="Images/Screenshot_20211013-135850_Chrome.jpg" width=1000" height="600"></a>
+    <div class="text">Tic-Tac-Toe</div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 4</div>
+    <a href="https://scale-sales.herokuapp.com/">
+      <img alt="Qries" src="Images/Screenshot_20211013-135929_Chrome.jpg" width=1000" height="600" ></a>
+    <div class="text">Scale-Sales</div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 4</div>
+    <a href="https://noetic-talk-full.herokuapp.com/">
+      <img alt="Qries" src="/Users/frankierg/Desktop/SEIR-FLEX-HYPATIA/classwork/FGPortfolio/Images/Screen Shot 2021-10-11 at 8.40.15 PM.png" width=1000" height="600"></a>
+    <div class="text">Noetic Talk</div>
+  </div>
+  
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+  <script src="script.js"></script>
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.1.2/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.1.2/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyBC_1b7T6NNteJPePxeHbbMNDb4jqNpEpo",
+    authDomain: "f-rg-407c3.firebaseapp.com",
+    projectId: "f-rg-407c3",
+    storageBucket: "f-rg-407c3.appspot.com",
+    messagingSenderId: "32746654875",
+    appId: "1:32746654875:web:71f63755fa4ada94d68a3e",
+    measurementId: "G-1VDVE7TS36"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
 </body>
 </html>
